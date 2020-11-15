@@ -1,0 +1,30 @@
+body{
+    background: rgb(17, 0, 255); /* cor de fundo do site    */
+    color: rgb(12, 1, 1); /*  cor da fonte que fica dentro da borda  */
+    font: normal 15pt Arial;/*  fonte da letra que fica dentro da borda   */
+
+}
+
+header{
+    color: rgb(6, 20, 3); /*  cor do título do site   */
+    text-align: center; /*  se quiser centralizado  */
+
+}
+
+section{
+    background: white; /* cor da borda    */
+    border-radius: 10px; /* borda para arendodar    */ 
+    padding: 15px; /*  espaço dentro    */
+    width: 500px; /* largura fixa    */
+    margin: auto;/* centralizar no meio da tela    */
+    box-shadow: 3px 3px 10px black; /*  sombra dentro do borda   */
+
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic; /*  deixa a letra em italic   */
+
+}

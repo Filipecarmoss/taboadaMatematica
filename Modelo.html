@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title> <!--  Título da aba site  -->
+    <link rel="stylesheet" href="estilo.css"> <!-- criar outro estilo arquivo externo   -->
+</head>
+<body> <!--  corpo do site  -->
+    <header><!-- para fazer um título cabeçalho    -->
+        <h1>Tabuada</h1><!--  título do site -->
+    </header>
+    <section><!-- área do meio no site  e as div vão dentro  -->
+        <div><!-- divisão dentro do conteúdo   -->
+            <p>Número:<input type="number" name="num" id="txtn"> <!--  para ele digitar o número site  -->
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p> <!-- Botão para gerar tabuada  -->
+        </div>
+
+        <div>
+            <select name="tabuada" id="seltab" size="10"></select> <!-- aba dentro da tabuada  -->
+            <option>Digite um número acima</option> <!-- aba dentro da tabuada um texto   -->
+
+        </div>
+
+    </section>
+    <footer><!-- para fazer rodapé   -->
+        <p>&copy;Filipecarmoss</p> <!-- paragrafo   -->
+
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
